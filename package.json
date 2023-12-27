@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
+    "build": "nodemon server.js",
     "server": "nodemon backend/server.js",
     "client": "npm run dev --prefix frontend",
     "versel build": "echo versel"
